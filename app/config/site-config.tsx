@@ -1,7 +1,7 @@
 export const siteConfig = {
     creator: "Angel Smith",
     title: "Developer",
-    bio: "From Code to Cuisine: powered by Tofu",
+    bio: "From code to cuisine: powered by tofu and frie potatoes",
     location: "Santiago, Chile",
     locationLink: "a",
     email: "angelsmithlgs@gmail.com",

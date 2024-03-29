@@ -10,6 +10,7 @@ export default function Home() {
       <div className="flex-1 h-full max-w-md p-8">
       <div className="flex flex-col h-full space-y-6 rounded-md">
         <Image src="/foto.png" alt="avatar" width="120" height="120" priority loading="eager"/>
+        {/* <Image src="/soul.png" alt="backavatar" width="120" height="120" priority loading="eager"/> */}
 
       <div>
         <div className="text-xl font-semibold text-primary overflow-auto">{siteConfig.title}
@@ -31,9 +32,9 @@ export default function Home() {
         <div className="flex items-center justify-center w-full pt-6 border-t border-neutral-100 dark:border-neutral-800">
         <div className="container flex items-center justify-between">
         <div className="text-xs text-neutral-500">
-            Built by @tofu | ©2024 tofu. All Rights Reserved
+            ©2024 tofu. All Rights Reserved
         </div>
-        <ThemeToggle />
+       {/*  <ThemeToggle /> */}
             </div>
             </div>
         </div>

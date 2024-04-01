@@ -3,6 +3,8 @@ import { siteConfig } from "./config/site-config";
 import { Mail, MapPin } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
 
+const GridItems = new Array(12).fill(0);
+console.log(GridItems);
 
 export default function Home() {
   return (
@@ -41,9 +43,7 @@ export default function Home() {
       </div>
       {/* Right Side */}
       <div className="flex-1 h-full p-6">
-      <div className="flex items-center justify-center h-full rounded-md dark:bg-emerald-700">
-        Right Side
-        </div>
+        <div className="w-full h-full grid grid-cols-4 auto-rows-[76px] gap-19"></div>
       </div>
     </main>
   );
